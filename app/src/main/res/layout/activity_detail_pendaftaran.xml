@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detailPendaftaran_activity"
+    android:background="#FFFFFF"
+    tools:ignore="MissingDefaultResource">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran Berhasil"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="Data Pendaftaran"
+                android:gravity="center"
+                android:layout_marginVertical="20dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama :"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/txtNama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/txtEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alamat :"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/txtAlamat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Telp :"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/txtTelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+            <TextView
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tempat Les :"
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+
+            <TextView
+                android:layout_marginTop="16dp"
+                android:id="@+id/txtTempatLes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+                android:textColor="#000000"
+                android:fontFamily="sans-serif"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

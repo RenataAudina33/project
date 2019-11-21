@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "385955663288",
+    "firebase_url": "https://cari-bimbel.firebaseio.com",
+    "project_id": "cari-bimbel",
+    "storage_bucket": "cari-bimbel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385955663288:android:f872e3e602bf44eb77d34d",
+        "android_client_info": {
+          "package_name": "com.e.caribimbel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385955663288-2scbuv49engqu0dl7jhdg7au0g7id0up.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTmduvK1mFY7Kdhx1_ffesR7fKp6QTEJs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385955663288-2scbuv49engqu0dl7jhdg7au0g7id0up.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

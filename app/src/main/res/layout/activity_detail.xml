@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".detail_activity"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+               />
+
+            <LinearLayout
+                android:layout_marginLeft="16dp"
+                android:layout_toRightOf="@id/imgProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nama : "
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+                    <TextView
+                        android:id="@+id/txtNama"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Email: "
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Alamat: "
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+                    <TextView
+                        android:id="@+id/txtAlamat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Telp.: "
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+                    <TextView
+                        android:id="@+id/txtTelp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="15sp"
+                        android:textColor="#000000"
+                        android:fontFamily="sans-serif"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi:"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"/>
+        <TextView
+            android:layout_marginTop="16dp"
+            android:id="@+id/txtDeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:fontFamily="sans-serif"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="Pendaftaran"
+                android:gravity="center"
+                android:layout_marginVertical="20dp"
+                android:textSize="20sp"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-black"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nama"
+                android:hint="Nama"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:inputType="text"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:hint="Email"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:inputType="textEmailAddress"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/noTelp"
+                android:hint="No.Telp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:inputType="number"
+                android:imeOptions="actionNext"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/alamat"
+                android:hint="Alamat"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:imeOptions="actionDone"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/daftar"
+                android:text="Daftar"
+                android:layout_gravity="center"
+                android:layout_marginVertical="20dp"/>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
